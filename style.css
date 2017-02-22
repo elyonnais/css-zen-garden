@@ -1,3 +1,21 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
 body {
-    background: red;
+    background: #ffe59f;
+    font-family: 'EB Garamond', serif;
+}
+
+/* Typography */
+h1,h2, h3, h4, h6 
+{font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
 }
