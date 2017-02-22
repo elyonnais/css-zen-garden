@@ -19,3 +19,13 @@ h1 {
 h2 {
     font-size: 2em;
 }
+
+/* Positioning */
+header {
+    background: rgba(0, 128, 128, 0.7);
+    position: fixed;
+    width: 100%;
+    
+    position: relative;
+
+}
