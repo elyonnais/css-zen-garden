@@ -29,3 +29,64 @@ header {
     position: relative;
 
 }
+
+/* Layout */
+.page-wrapper {
+    background: red;
+    margin: 0 auto;
+    width: 95%;
+} 
+
+#zen-intro {
+    background: #b43d3d;
+    
+
+}
+
+#zen-supporting {
+    background: #b55959;
+}
+
+.sidebar {
+    background: #ba8837;
+    
+}
+
+
+
+/* Media Queries */
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Mobile Size";
+  }
+  
+/* end mobile */
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Tablet Size";
+  }
+
+/* end tablet */
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Desktop Size";
+  }
+    
+/* end desktop*/
+}
